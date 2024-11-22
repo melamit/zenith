@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "name": "Run development server",
+            "type": "node",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "deno",
+            "runtimeArgs": [
+                "task dev",
+            ],
+            "attachSimplePort": 3000
+        },
+        {
+            "request": "launch",
+            "name": "Build project",
+            "type": "node",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "deno",
+            "runtimeArgs": [
+                "task build",
+            ]
+        },
+        {
+            "request": "launch",
+            "name": "Run preview server",
+            "type": "node",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "deno",
+            "runtimeArgs": [
+                "task start",
+            ],
+            "attachSimplePort": 3000
+        },
+        {
+            "request": "launch",
+            "name": "Run linter",
+            "type": "node",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "deno",
+            "runtimeArgs": [
+                "task lint",
+            ],
+            "attachSimplePort": 9229
+        }
+    ]
+}
