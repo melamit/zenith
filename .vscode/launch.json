@@ -48,8 +48,7 @@
             "runtimeExecutable": "deno",
             "runtimeArgs": [
                 "task lint",
-            ],
-            "attachSimplePort": 9229
+            ]
         }
     ]
 }
