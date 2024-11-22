@@ -12,8 +12,10 @@
             "env": {},
             "runtimeExecutable": "deno",
             "runtimeArgs": [
-                "task dev",
+                "task",
+                "dev"
             ],
+            "outputCapture": "std",
             "attachSimplePort": 3000
         },
         {
@@ -24,8 +26,10 @@
             "env": {},
             "runtimeExecutable": "deno",
             "runtimeArgs": [
-                "task build",
-            ]
+                "task",
+                "build"
+            ],
+            "outputCapture": "std",
         },
         {
             "request": "launch",
@@ -35,8 +39,10 @@
             "env": {},
             "runtimeExecutable": "deno",
             "runtimeArgs": [
-                "task start",
+                "task",
+                "start"
             ],
+            "outputCapture": "std",
             "attachSimplePort": 3000
         },
         {
@@ -47,8 +53,10 @@
             "env": {},
             "runtimeExecutable": "deno",
             "runtimeArgs": [
-                "task lint",
-            ]
+                "task",
+                "lint"
+            ],
+            "outputCapture": "std"
         }
     ]
 }
